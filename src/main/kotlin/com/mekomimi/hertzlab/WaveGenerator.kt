@@ -1,10 +1,11 @@
-package org.example
+package com.mekomimi.hertzlab
 
 import com.jsyn.JSyn
 import com.jsyn.Synthesizer
 import com.jsyn.unitgen.LineOut
 import com.jsyn.unitgen.SineOscillator
 
+//最简单的声波生成器
 class WaveGenerator {
     private var synth: Synthesizer? = null
     private var osc: SineOscillator? = null
